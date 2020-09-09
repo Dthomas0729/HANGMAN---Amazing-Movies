@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ajRsJRNfhIoiCxw0RiADCuOdM4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HANGMAN.py" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -33,7 +37,28 @@
       <recent name="C:\Users\DThom\Desktop\PycharmProjects\GUESSTHENUM" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.HANGMAN">
+    <configuration name="HANGMAN" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="GUESSTHENUM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\DThom\Desktop\PycharmProjects\sameassign\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HANGMAN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="guess_num" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="GUESSTHENUM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,6 +80,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.HANGMAN" />
+      <item itemvalue="Python.guess_num" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -70,29 +99,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587249413388">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596417399998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587249413384" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587249410516">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596417399998" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596417383227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587249410516" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587525931833">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596417383227" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1596501979233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587525931833" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587525931833">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596501979233" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1596501979233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587525931833" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587525931833">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596501979233" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1596501979233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587525931833" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587525931833">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596501979233" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1596501979233">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587525931833" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596501979233" />
   </component>
 </project>

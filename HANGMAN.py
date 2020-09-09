@@ -13,10 +13,9 @@ final_board = ''
 def word_gen():
     global word
     # GENERATES A RANDOM MOVIE FROM MOVIES.TXT
-    movies = open('movies.txt').readlines()
-    my_word = random.choice(movies)
-    word = my_word
 
+    movies = open('movies.txt').readlines()
+    word = random.choice(movies)
 
 
 def guess_letter():
@@ -34,7 +33,10 @@ def guess_check():
     global guess_count
 
     while True:
-        if g_letter in guessed_letters:
+        if g_letter == word:
+            print('You have successfully guessed the movie!')
+
+        elif g_letter in guessed_letters:
             g_letter = input('This letter has been used already. Guess Again: ').upper()
         elif len(g_letter) > 1:
             g_letter = input('You may only guess 1 letter at a time. Guess Again: ').upper()
@@ -113,6 +115,7 @@ def replay():
             break
         else:
             replay = input('No Comprende. Please enter Y or N: ').upper()
+
 
 print('______________________________\n'
       '      WELCOME TO HANGMAN    ')
