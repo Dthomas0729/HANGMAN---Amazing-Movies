@@ -10,6 +10,7 @@ class Hangman:
         self.board = []
         self.g_letter = ''
         self.playing = False
+        self.delimiter = '*'
 
     def word_gen(self):
         with open('movies.txt') as movies:
@@ -27,10 +28,11 @@ class Hangman:
             elif l == ' ':
                 board.append(' ')
             else:
-                board.append('_')
+                board.append(self.delimiter)
 
         self.board = ' '.join(board[0:-1])
         print(self.board)
+        return self.board
 
     # THIS IS HOW THE USER WILL GUESS LETTERS
     def guess_letter(self):
@@ -72,15 +74,15 @@ class Hangman:
     def count_check(self):
         if self.guess_count == 0:
             print('\nYOU HAVE ZERO GUESSES LEFT!')
-            playing = False
+            self.playing = False
             print('GAME OVER***GOOD TRY\n')
             print(f'The movie is... {self.word}')
             self.replay()
 
     def check_win(self):
-        if '_' not in self.board:
-            print('YOU ARE A WINNER!!')
+        if self.delimiter not in self.board:
             self.playing = False
+            print('YOU ARE A WINNER!!')
             self.replay()
 
     def replay(self):
@@ -91,28 +93,28 @@ class Hangman:
             self.word_gen()
             self.board_gen()
             self.playing = True
-
         elif 'N' == replay:
             print('Thank You For Playing!')
-            self.playing = False
         else:
             replay = input('No Comprende. Please enter Y or N: ').upper()
 
-print('______________________________\n'
-      '      WELCOME TO HANGMAN    ')
-print('Dominik\'s Favorite Movies Edition!\n')
+def main():
+    print('______________________________\n'
+          '      WELCOME TO HANGMAN    ')
+    print('Dominik\'s Favorite Movies Edition!\n')
 
-input('To start with a random movie press enter!')
-game = Hangman()
-game.playing = True
-game.word_gen()
-game.board_gen()
+    input('To start with a random movie press enter!')
+    game = Hangman()
+    game.playing = True
+    game.word_gen()
+    game.board_gen()
 
-while game.playing:
-    game.guess_letter()
-    game.guess_check()
-    game.check_win()
+    while game.playing:
+        game.guess_letter()
+        game.guess_check()
+        game.check_win()
 
-
+if __name__ == '__main__':
+    main()
 
 
