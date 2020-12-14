@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4448d3cb-5b4a-44db-bb95-81f94ac6498f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HANGMAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/HANGMAN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/movies.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +101,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596417399998">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2105" y="163" key="FileChooserDialogImpl" timestamp="1607981507389">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596417399998" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596417383227">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596417383227" />
+    <state x="2105" y="163" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1607981507389" />
+    <state x="526" y="114" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607100320630" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1603758858540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
