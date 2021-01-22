@@ -1,5 +1,5 @@
 import unittest
-from HANGMAN_2 import Hangman
+from hangman import Hangman
 
 
 class MyTestCase(unittest.TestCase):

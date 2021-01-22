@@ -42,10 +42,13 @@ class Hangman:
     # THIS IS HOW HANGMAN CHECKS IF A LETTER IS VALID
     def guess_check(self):
         while True:
+            # CHECKS IF INPUT IS A VALID LETTER
+            if not self.g_letter.isalpha():
+                self.g_letter = input('Please input a valid letter [A-Z]. Try Again: ').upper()
 
             # CHECKS IF LETTER IS ALREADY USED
-            if self.g_letter in self.guessed_letters:
-                self.g_letter = input('This letter has been used already. Guess Again: ').upper()
+            elif self.g_letter in self.guessed_letters:
+                self.g_letter = input('This letter has been used already. Try Again: ').upper()
 
             # CHECKS FOR MULTIPLE LETTERS OR MOVIE
             elif len(self.g_letter) > 1:
@@ -54,7 +57,7 @@ class Hangman:
                     self.board_gen()
                     break
                 else:
-                    self.g_letter = input('You may only guess 1 letter at a time. Guess Again: ').upper()
+                    self.g_letter = input('You may only guess 1 letter at a time. Try Again: ').upper()
 
             elif self.g_letter in self.word:
                 self.guessed_letters.append(self.g_letter)
@@ -87,16 +90,20 @@ class Hangman:
 
     def replay(self):
         replay = input('Would you like to play again? Y/N: ').upper()
-        if 'Y' == replay:
-            self.guess_count = 6
-            self.guessed_letters = []
-            self.word_gen()
-            self.board_gen()
-            self.playing = True
-        elif 'N' == replay:
-            print('Thank You For Playing!')
-        else:
-            replay = input('No Comprende. Please enter Y or N: ').upper()
+        while True:
+            if 'Y' == replay:
+                self.guess_count = 6
+                self.guessed_letters = []
+                self.word_gen()
+                self.board_gen()
+                self.playing = True
+                break
+            elif 'N' == replay:
+                print('Thank You For Playing!')
+                break
+            else:
+                replay = input('No Comprende. Please enter Y or N: ').upper()
+
 
 def main():
     print('______________________________\n'
